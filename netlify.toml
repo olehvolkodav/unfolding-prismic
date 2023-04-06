@@ -1,0 +1,29 @@
+[[redirects]]
+from = "/russiangateway"
+to = "/projects/eurasia/russian"
+status = 301
+
+[[redirects]]
+from = "/arabic"
+to = "/projects/menapak/arabic"
+status = 301
+
+[[redirects]]
+from = "/gl-spanish"
+to = "/projects/americas/spanish"
+status = 301
+
+[[redirects]]
+from = "/southeastasia1"
+to = "/projects/southasia/southasia1"
+status = 301
+
+[[redirects]]
+from = "/*"
+to = "https://unfoldingword.squarespace.com/:splat"
+status = 200
+force = false
+
+[dev]
+publish = "dist"
+command = "npm run start"
